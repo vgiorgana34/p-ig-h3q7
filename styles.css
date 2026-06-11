@@ -155,13 +155,13 @@ em{font-style:normal}
 .hero-tagline{font-size:18px;color:var(--on-dark-82);max-width:46ch;line-height:1.5}
 .hero-tagline b{color:var(--highlight);font-weight:600}
 .hero-meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
-.mpill{display:flex;align-items:center;gap:10px;padding:11px 18px;border-radius:var(--r-full);
-  background:var(--glass-2);border:1px solid var(--glass-border);backdrop-filter:blur(4px)}
+.mpill{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:var(--r-sm);
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09)}
 .mpill .mk{font-family:var(--font-mono);font-size:10px;font-weight:600;letter-spacing:.08em;
   text-transform:uppercase;color:var(--on-dark-55)}
-.mpill .mv{font-family:var(--font-display);font-weight:700;font-size:14.5px;color:#fff}
-.mpill .live{width:8px;height:8px;border-radius:50%;background:var(--highlight);
-  box-shadow:0 0 10px var(--highlight);animation:pulseDot 2s var(--ease) infinite}
+.mpill .mv{font-family:var(--font-display);font-weight:700;font-size:14px;color:#fff}
+.mpill .live{width:7px;height:7px;border-radius:50%;background:var(--highlight);
+  box-shadow:0 0 8px var(--highlight);animation:pulseDot 2s var(--ease) infinite}
 
 /* avatar / ring */
 .hero-avatar{position:relative;width:188px;height:188px;flex-shrink:0;display:grid;place-items:center}
@@ -534,11 +534,11 @@ ul.cond li b{color:var(--on-surface);font-weight:700}
   opacity:0;transition:opacity .18s var(--ease),transform .18s var(--ease);z-index:80}
 .nav-pills a:hover[data-tip]::after,.nav-pills a:hover[data-tip]::before{opacity:1;transform:translateX(-50%) translateY(0)}
 
-/* ── Vigencia urgente ── */
-.mpill--urgent{border-color:rgba(253,50,123,.45);background:rgba(253,50,123,.12)}
-.mpill--urgent .mv{color:#fff}
-.mpill--urgent .dotw{width:8px;height:8px;border-radius:50%;background:var(--accent);
-  box-shadow:0 0 10px var(--accent);animation:pulseDot 2s var(--ease) infinite}
+/* ── Vigencia con acento ── */
+.mpill--urgent{border-color:rgba(255,255,255,.09);background:rgba(255,255,255,.04)}
+.mpill--urgent .mk{color:rgba(253,50,123,.85)}
+.mpill--urgent .dotw{width:7px;height:7px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 8px var(--accent);animation:pulseDot 2s var(--ease) infinite}
 
 /* ── Unified CTA · homogéneo en toda la página ── */
 .cta{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--accent);color:#fff;
