@@ -1,0 +1,8 @@
+_design_source/
+.claude/
+.DS_Store
+node_modules/
+*.log
+Propuesta_Intellecta_Group.md
+preview.html
+wireframe.html
